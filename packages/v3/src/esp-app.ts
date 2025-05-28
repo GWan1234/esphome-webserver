@@ -160,7 +160,12 @@ export default class EspApp extends LitElement {
           class="tab-container"
         >
           <input class="btn" type="file" name="update" accept="application/octet-stream" />
-          <input class="btn" type="submit" value="Update" />
+          <input 
+            class="btn" 
+            type="submit" 
+            value="Update" 
+            style="margin-left: -70px;" /* 调整这个值来控制按钮的左右位置 */
+          />
         </form>`;
     }
   }

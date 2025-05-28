@@ -52,7 +52,7 @@ export default css`
     text-wrap: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    min-width: 150px;
+    min-width: 50px;
   }
   .entity-row > :nth-child(3) {
     flex: 1 1 50%;
